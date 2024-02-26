@@ -1,0 +1,30 @@
+{
+  "name": "to-do-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksniv/to-do-docker.git"
+  },
+  "author": "maksim niveykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksniv/to-do-docker/issues"
+  },
+  "homepage": "https://github.com/maksniv/to-do-docker#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.4",
+    "nodemon": "^2.0.14"
+  }
+}
