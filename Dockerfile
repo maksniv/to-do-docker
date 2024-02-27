@@ -1,5 +1,7 @@
 FROM node
 
+WORKDIR /app
+
 COPY . . 
 
 ENV PORT 3000
