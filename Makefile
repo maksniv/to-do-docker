@@ -1,4 +1,5 @@
 first-start: build run
+	open http://localhost:3000
 build:
 	docker build . -t to-do-img
 run:
